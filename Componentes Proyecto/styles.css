@@ -1,0 +1,26 @@
+.title {
+  color: red;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  background-color: springgreen;
+  color: black;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+thead {
+  background-color: yellow; /* Cambia el color del encabezado */
+}
+
+th, td {
+  border: 2px solid black;
+}
+

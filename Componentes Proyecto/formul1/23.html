@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="estilos2.css" rel="stylesheet">
+
+<title>Registre</title>
+</head>
+<body>
+
+
+<div class="container">
+      <div class="image">
+        <img src="logo.png" alt="Image">
+      </div>
+      <div class="form-container">
+
+
+  <h2>Rellena el formulario para recibir la guía gratuita</h2>
+  <form action="<%= request.getContextPath() %>/register" method="post">
+
+   <table style="with: 80%">
+
+<tr>
+     <td>Name</td>
+     <td><input type="text" name="name" /></td>
+    </tr>
+
+<tr>
+     <td>Last_Name</td>
+     <td><input type="text" name="last_name" /></td>
+    </tr>
+
+<tr>
+     <td>Email</td>
+     <td><input type="text" name="email" /></td>
+    </tr>
+    
+<tr>
+  <td>Position</td>
+  <td>
+    <select name="position">
+      <option value="Desarrollador_Back">Desarrollador Back</option>
+      <option value="Desarrollador_Front">Desarrollador Front</option>
+      <option value="Analista">Analista</option>
+    </select>
+  </td>
+</tr>
+
+
+<tr>
+     <td>Company</td>
+     <td><input type="text" name="company" /></td>
+    </tr>
+ <tr>
+
+
+<tr>
+  <td>Company Type</td>
+  <td>
+    <select name="company_type">
+      <option value="Empresa_privadas">Empresa privadas</option>
+      <option value="Empresa_pública">Empresa pública</option>
+      <option value="Empresa_mixta">Empresa mixta</option>
+    </select>
+  </td>
+</tr>
+
+
+
+
+
+  
+<tr>
+  <td>Number of workers</td>
+  <td>
+    <select name="number_workers">
+      <option value="Empresa_privadas">Empresa privadas</option>
+      <option value="Empresa_pública">Empresa pública</option>
+      <option value="Empresa_mixta">Empresa mixta</option>
+    </select>
+  </td>
+</tr>
+
+
+ </table>
+
+
+
+<input type="submit" value="Submit" />
+  </form>
+ </div>
+  </div>
+
+</body>
+</html>

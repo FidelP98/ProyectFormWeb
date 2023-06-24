@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root {
+    --color-white: #ffffff;
+    --color-white-x: #b6b6b67c;
+    --color-white-xx: #000000;
+    --color-light: #000000;
+    --color-grey: #070707;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: var(--color-white);
+    color: rgb(0, 0, 0);
+    letter-spacing: .05rem;
+}
+
+.a {
+    color: red;
+}
+
+.bg-light {
+    background-color: var(--color-light) !important;
+}
+
+.bg-dark {
+    background-color: var(--color-white) !important;
+}
+
+.p-6 {
+    padding: 4rem 7rem;
+}
+
+.contact-box {
+    padding: 3rem;
+}
+
+.btn {
+    font-weight: 400;
+    padding: 1rem 2rem;
+    min-width: 8rem;
+}
+
+.btn-outline-dark {
+    border: 5px solid var(--color-white-xx);
+}
+
+.form-control {
+    background-color: var(--color-white-x);
+    border: 2px solid var(--color-white);
+    border-radius: .2rem;
+    padding: 1.5rem 1rem;
+}
+
+.register-bg {
+    background-image: url("img/logo.png");
+    background-position: left;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.testimonial {
+    bottom: 10px;
+}
+
+.logoimg img {
+     float: left;
+    margin-right: 50px;
+     margin-left: 350px;
+    margin-top: 250px;
+}
+
+.logo-img-big img {
+    max-width: 5px;
+    height: auto;
+}
+
+@media (max-width: 575.98px) {
+    .p-6 {
+        padding: 2rem;
+    }
+
+    .contact-box {
+        padding: 0;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .register-bg {
+        min-height: 50vh;
+    }
+}
+
